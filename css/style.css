@@ -1,0 +1,49 @@
+body{
+   
+    background:url(/pics/wpp.jpg) center center fixed;
+
+}
+.apli{
+    text-decoration: none;
+    color: blue;
+}
+#carousel{
+    margin: 0px 300px 100px 300px;
+    position: fluid;
+    
+    
+
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer{
+    position: fixed sticky;
+    bottom: 0px;
+    width: 100%;
+    background-color: #43464b;
+    clear: both;
+    height: 248px;
+    z-index: 90000;
+    color: white;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a.ic{
+    color:white;
+    transition: color .2s;
+    font-size: 30px;
+    
+}
+.copyright p{border-top:1px solid rgba(255,255,255,.1);}
+
+    
+    
+    
+   

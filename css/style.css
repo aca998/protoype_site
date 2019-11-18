@@ -42,7 +42,64 @@ body{
 .p_his{
     margin-left: 10vh;
     font-size: 15px;
-    
+    margin-right: 10vh;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 0px 200px 0px 200px;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 1220px;
+ }
+ .flex-item {
+     display:flex;
+ align-items: center;
+ height: 200px;
+ width: 500px;
+ background-color: #343A40;
+ border: 2px solid silver;
+ border-radius: 5px;
+ margin: 3px;
+ padding: 10px 0 0 10px;
+ color: white;
+ font-size: 12px;
+ }
+.flex-item img{
+flex-grow:0;
+flex-shrink:0;
+}
+.flex-ul{
+text-decoration: none;
+}
+.mac-div{
+    margin: 0px 150px 0px 150px;
+}
+.mac_car{
+    margin: 10px 200px 10px 170px;
+    background-color: #343A40;
+    height: 700px;
+    width: 1200px;
+    border: 3px solid silver;
+    border-radius: 9px;
+    color: white;
+    padding: 30px 10px 0px 10px;
+}
+.paramb{
+    bottom: 10px;
+    position: absolute;
+    margin: 0px 140px 0px 17px;
+
+}
+a.carousel-control-next{
+    padding-top: 25vh;
+}
+a.carousel-control-prev{
+    padding-top: 25vh;
 }
 
     
